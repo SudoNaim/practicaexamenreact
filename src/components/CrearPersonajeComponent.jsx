@@ -38,7 +38,7 @@ export default class CrearPersonajeComponent extends Component {
     insertPersonaje = (event) => {
         event.preventDefault();
         let Personaje = {
-            numero: parseInt(this.cajaNumero.current.value),
+            id: 0,
             nombre: this.cajaNombre.current.value,
             imagen: this.cajaImagen.current.value,
             serie: this.cajaSerie.current.value
